@@ -721,8 +721,8 @@ install_portainer() {
 
 install_tls_shunt_proxy() {
     check_system
-    systemctl is-active "firewalld" &>/dev/null && systemctl stop firewalld && echo -e "${OK} ${GreenBG} Firewalld 已关闭 ${Font}"
-    systemctl is-active "ufw" &>/dev/null && systemctl stop ufw && echo -e "${OK} ${GreenBG} UFW 已关闭 ${Font}"
+    systemctl is-active "firewalld" &>/dev/null && systemctl stop firewalld && echo -e "${OK} ${GreenBG} Firewalld đã ngừng hoạt động ${Font}"
+    systemctl is-active "ufw" &>/dev/null && systemctl stop ufw && echo -e "${OK} ${GreenBG} UFW không hoạt động ${Font}"
     dependency_install
     basic_optimization
     domain_port_check
