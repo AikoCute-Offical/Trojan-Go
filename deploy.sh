@@ -1133,7 +1133,7 @@ menu_req_check() {
 menu() {
     deployed_status_check
     echo -e "\n${Green}     Phiên bản tập lệnh triển khai TSP & Trojan-Go / V2Ray: ${shell_version} ${Font}"
-    echo -e "${Yellow}       Nhóm Telegram：https://t.me/trojanv2${Font}\n"
+    echo -e "${Yellow}       Nhóm Telegram：https://t.me/aikocutehotme${Font}\n"
     echo -e "——————————————————————Quản lý triển khai——————————————————————"
     if [[ $tsp_stat = "installed" ]]; then
         echo -e "${Green}1.${Font}  ${Yellow}Gỡ cài đặt${Font} TLS-Shunt-Proxy (trang web và quản lý chứng chỉ tự động)"
